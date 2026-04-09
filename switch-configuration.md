@@ -1,4 +1,4 @@
-Configuring the Switch
+# <ins>Configuring the Switch</ins>
 	This was one of the steepest learning curves that I encountered during this project. Once I logged in I had no idea how to actually work the interface so I used Dell’s user guide, as well as deepseek AI for any clarifying questions about the syntax. I didn’t use the setup wizard because I wanted to learn how to work with the interface myself. I started with the basic configuration set up, starting with enabling SSH, creating a user and creating VLANs. I’ll first start with how I configured SSH going over the workflow:
 
 	console> enable (to enter privileged exec mode)
