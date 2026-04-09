@@ -13,3 +13,4 @@ This webpage will serve as the documentation for my recently completed homelab p
 
 [Verification](switch-verification-commands.md)
 
+[Show user diagnosis](diagnosing-an-issue.md)
