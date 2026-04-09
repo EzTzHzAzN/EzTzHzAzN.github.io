@@ -23,3 +23,7 @@ This webpage will serve as the documentation for my recently completed homelab p
 
 ## Updates
 [Configuration Updates](updates-to-configurations.md)
+
+## Troubleshooting
+
+[Issues Encountered](troubleshooting.md)
