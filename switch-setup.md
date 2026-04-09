@@ -1,5 +1,5 @@
 # <ins>Setting up the switch</ins>
-I started this project by first researching the way airflow works in the PowerConnect 5524 which I learned goes front to back, so when I set it up I ensured that it was in a clean environment, and that its exhaust had enough room. After that, I knew I was going to configure VLANs so I mapped out the VLANs I was going to create, as well as the ports that corresponded to them. This was what I decided on:
+	I started this project by first researching the way airflow works in the PowerConnect 5524 which I learned goes front to back, so when I set it up I ensured that it was in a clean environment, and that its exhaust had enough room. After that, I knew I was going to configure VLANs so I mapped out the VLANs I was going to create, as well as the ports that corresponded to them. This was what I decided on:
 	VLAN 10 - Homelab VLAN (gi1/0/9-12)
 	VLAN 20 - Entertainment (gi1/0/13-16)
 	VLAN 30 - Wireless (gi1/0/1-4)
