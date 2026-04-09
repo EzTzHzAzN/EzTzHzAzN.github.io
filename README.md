@@ -14,3 +14,12 @@ This webpage will serve as the documentation for my recently completed homelab p
 [Verification](switch-verification-commands.md)
 
 [Show user diagnosis](diagnosing-an-issue.md)
+
+
+## Working with the Router
+[Configuration](router-configuration.md)
+
+[Verification](router-verification-commands.md)
+
+## Updates
+[Configuration Updates](updates-to-configurations.md)
