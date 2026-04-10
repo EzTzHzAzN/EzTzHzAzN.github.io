@@ -3,7 +3,7 @@ This was another steep learning curve for me as it was my first time working wit
 
 	/ip address add address=192.168.88.1 interface=ether1
 
-The reason the code is structured like this is that RouterOS is based off of linux so its CLI functions in a similar fashion. We start with / because that is the equivalent of a directory, and then specify the directory that we are navigating to, in this case it’s IP. After that we select our sub-directory, which is address and then specify the action we want to perform, in this case adding an address. The reason that we select ether1 as the interface for this command is it is our WAN IP and will be masqueraded with a later firewall rule. After configuring my IP address I decided that the next logical step was to set up my DHCP. I started with creating the DHCP server which I used the command,
+The reason the code is structured like this is that RouterOS is based off of linux so its CLI functions in a similar fashion. We start with / because that is the equivalent of a directory, and then specify the directory that we are navigating to, in this case, IP. After that we select our sub-directory, which is address and then specify the action we want to perform, in this case adding an address. The reason that we select ether1 as the interface for this command is it is our WAN IP and will be masqueraded with a later firewall rule. After configuring my IP address I decided that the next logical step was to set up my DHCP. I started with creating the DHCP server which I used the command,
 
 	/ip dhcp-server add name=defconf interface=ether5 address-pool=defconf_pool
 
