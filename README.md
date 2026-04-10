@@ -4,7 +4,7 @@ This webpage will serve as the documentation for my recently completed homelab p
 ## Network Overview
 [Hardware](hardware.md)
 
-[Topology]()
+[Topology](topology.png)
 
 ## Working with the Switch
 [Setup](switch-setup.md)
