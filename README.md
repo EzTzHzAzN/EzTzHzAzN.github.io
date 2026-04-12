@@ -6,7 +6,7 @@ This webpage will serve as the documentation for my recently completed homelab p
 
 [Old Topology](OriginalTopology.drawio.png)
 
-[Topology](NetworkTopology.drawio.png)
+[Topology](NetworkTopology.drawio(2).png)
 
 ## Working with the Switch
 [Setup](switch-setup.md)
