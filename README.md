@@ -4,6 +4,8 @@ This webpage will serve as the documentation for my recently completed homelab p
 ## Network Overview
 [Hardware](hardware.md)
 
+[Old Topology](OriginalTopology.drawio.png)
+
 [Topology](NetworkTopology.drawio.png)
 
 ## Working with the Switch
