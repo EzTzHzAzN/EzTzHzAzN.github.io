@@ -1,6 +1,6 @@
 ##
 
-As I discussed in my show users command, the first entry on the output was a serial connection from the location 0.0.0.0. This was an odd output because as I discussed the command is only supposed to show the active connections, and I was accessing the switch via SSH. So I ran a variation of the show user command, which was show user login-history, and this command provides a log of the successful logins into the switch, specifically when, who, what and where of each login. Here are the result of the command:
+As I discussed in my show users command, the first entry on the output was a serial connection from the location 0.0.0.0. This was an odd output because as I discussed the command is only supposed to show the active connections, and I was accessing the switch via SSH. So I ran a variation of the show user command, which was the show user login-history command, which provided a log of the successful logins into the switch, specifically when, who, what and where of each login. Here are the result of the command:
 ```
 |       Login Time      |     Username     |    Protocol  |     Location    | 
 |---------------------- | ---------------- | ------------ | ----------------|
