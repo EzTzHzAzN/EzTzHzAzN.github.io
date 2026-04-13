@@ -8,6 +8,7 @@ This was one of the steepest learning curves that I encountered during this proj
 	console(config)# ip ssh server (to activate ssh server)
 	console(config)# exit
 	console(config)# copy running-config startup-config
+	
 After starting my SSH server, I configured my admin user, and to do that I performed these commands, for this workflow I am already in privileged exec mode.
 	
 	console#configure
@@ -30,7 +31,7 @@ Finally, the last basic configuration I did was configuring my VLANs, I will onl
 	console(config-if-range)# switchport access vlan 10
 	console(config-if-range)# exit
 	console(config)# exit
-	console#copy running-config startup-config
+	console# copy running-config startup-config
 
 It’s important to remember to add the trunk port as well so these ports are tagged as VLAN 10. Here is the workflow for that.
 	
